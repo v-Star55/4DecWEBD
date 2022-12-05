@@ -1,0 +1,311 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 70%;
+    }
+    
+ body{
+       font-family: 'Poppins', sans-serif;
+       overflow-x: hidden;
+       background-color: rgb(221, 221, 221);
+       color:rgb(2, 12, 58);
+    }
+
+    .header-1{
+        margin-left: 1rem;
+        font-size: 2.4rem;
+    }
+
+    .span{
+      color: #dd8e2e;
+    }
+
+       /*/////////////////////////////////////////////////////////
+////////////////// NAVBAR                     
+*/
+
+.nav{
+        display: flex;
+         align-items: center;
+         justify-content:space-around;
+         background-color:#fff;
+         height: 10vh;
+         width: 100%;
+     
+ }
+ 
+ .content a{
+    text-decoration: none;
+    font-size:1.6rem;
+    color:rgb(2, 12, 58);
+    margin: 1rem;
+    transition: .4s linear;
+    
+ }
+ .content a:hover{
+    color: #dd8e2e;
+ }
+ 
+ 
+ .icon{
+    height: 100%;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ .title{
+
+    display: flex;
+    align-items: center;
+    
+ }
+
+
+ /*///////////////////////////////////////////////
+ /////////////////////// header*/
+
+ .header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: url(banner-bg.webp);
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+ }
+
+ .content-header{    
+    margin: 0rem auto;
+    text-align: center;
+
+    max-width: 70rem;
+ }
+
+ .content__heading {
+   text-align: center;
+    text-transform: capitalize;
+    font-size: 3.3rem; 
+  }
+
+.header-para{
+  font-size:1.5rem;
+  margin-block: 2rem;
+}
+
+.btn{
+   background-color: transparent;
+   font-weight: 600;
+   color: rgb(2, 12, 58);
+   text-transform: uppercase;
+   font-size: 1.3rem;
+   text-decoration: none;
+   padding: 15px 14px;
+   border-radius: 2px;
+   position: relative;
+   transition: all 0.2s;
+   cursor: pointer;
+   border: 2px solid rgb(2, 12, 58);
+   margin-right:3rem ;
+   letter-spacing: 2px;
+}
+
+.btn:hover{
+   color: white;
+   background-color: #dd8e2e;
+}
+
+/*////////////////////////////////////////////////////////////////////////
+////////////////////// STORY */
+.review{
+   width: 100vw;
+   height: 60vh;
+   margin-bottom: 2rem;
+
+}
+.row{
+ 
+   padding-block: 5rem;
+}
+.story{
+   transition: all 0.2s;
+   margin: 0 auto;
+   padding: 2rem;
+   background: #fff;
+   width: 60vw;
+   height: 35vh;
+   text-align: center;
+}
+
+.story:hover{
+      border: 2px solid rgb(2, 12, 58);
+}
+.story__img{
+   height: 8rem;
+   border-radius: 50px;
+}
+
+.story__text{
+   font-size: 1.5rem;
+}
+
+.overview {
+   display: flex;
+   align-items: center;
+   border-bottom: var(--line);
+}
+
+
+   .overview__stars {
+
+      justify-content: center;
+       margin-right: auto;
+       display: flex;
+   }
+
+   .overview__icon-star {
+       width: 1.75rem;
+       height: 1.75rem;
+       fill: #dd8e2e;
+   }
+
+   .story__caption{
+      margin-top: 1.4rem;
+      font-size: 2rem;
+   }
+
+
+   /*///////////////////////////////////////*/
+
+   
+.menu {
+   padding: 2rem 7%; }
+   .menu__content {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 2rem;
+     row-gap: 2rem; }
+   .menu__btn {
+     margin-top: 2rem; }
+
+   
+.pro-card {
+   border: 0.1rem solid rgba(255, 255, 255, 0.3);
+   background: #fff;}
+ 
+ .para {
+   margin-top: 1.2rem;
+   font-size: 1.3rem; }
+ 
+     .photo{
+      width: 100%;
+      height: 30vh;
+     }
+
+     .img-product{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+     }
+
+     .heading-4{
+      font-size: 2rem;
+     }
+
+     .detail{
+      padding: 1rem;
+     }
+
+     .margin{
+      margin-block:1.4rem ;
+     }
+
+     .info{
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid  rgb(221, 221, 221) ;
+      margin-bottom: 1rem;
+     }
+
+
+     .user{
+
+      width: 11rem;
+      align-items: center;
+      height: 3rem;
+      display: flex;
+     }
+
+     .header-4{
+      color: #dd8e2e;
+      margin-left: 1rem;
+      font-size: 1.3rem;
+     }
+
+     .info-icon{
+      height: 2.2rem;
+     }
+
+
+
+     /*///////////////////////////////////////
+     ////////////// footer*/
+
+     
+.footer{
+   width: 100%;
+   height: 50vh;
+   color: rgb(2, 12, 58);
+   background: #fff;
+   padding-block: 5rem;
+   padding-inline: 5rem;
+}
+.brand{
+
+   max-width: max-content;
+}
+.footer__lists{
+   display: flex;
+   justify-content: space-around;
+   
+}
+.footer__content{
+   margin: 1rem auto;
+   width: 80vw;
+   font-size: 1.7rem;
+}
+
+.list-item{
+  list-style: none;
+  margin-block: 1rem;
+}
+
+.list-item a{
+   color: rgb(2, 12, 58);
+   text-decoration: none;
+   transition: all 0.2s linear 0s;
+}
+
+.list-item:hover a{
+   color:#d3ad7f ;
+   padding-left: 1rem;
+}
+
+.gr{
+   font-size: 1.6rem;
+   color: rgb(2, 12, 58);
+
+}
+
+
+.logo{
+   height: 8rem;
+}
